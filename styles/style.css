@@ -317,6 +317,7 @@ figcaption div {
 	color: #000000;
 	background-color: #ffffff;
 	position: absolute;
+	margin:0;
 }
 body {
 	background-color: #fafafafa;
@@ -422,7 +423,7 @@ body {
   z-index: -1;
   width: 150px;
   height: 150px;
-  margin: -43px 0 0 -76px;
+  margin: -76px 0 0 -76px;
   border: 16px solid #fafafafa;
   border-radius: 50%;
   border-top: 16px solid #99E2D0;
@@ -446,18 +447,7 @@ body {
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
-	  
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+  animation-duration: 1s	  
 }
 
 #myDiv {
